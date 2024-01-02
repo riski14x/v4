@@ -36,7 +36,7 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
-echo -e "\033[46m                  Fajar Vpn           \033[0m"
+echo -e "\033[41m                       VPN EXPRRES                   \033[0m"
 echo -e "${YELLOW}----------------------------------------------------------${NC}"
 echo ""
 sleep 3
@@ -333,7 +333,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/FajarVpn"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/6287846867519"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"⭐ᴏʀᴅᴇʀ⭐","url":"https://t.me/FajarVpn"},{"text":"⭐ɪɴꜱᴛᴀʟʟ⭐","url":"https://wa.me/628981874211"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
@@ -772,7 +772,7 @@ fi
 
 clear
 # banner
-echo "Banner /etc/banner.txt" >>/etc/ssh/sshd_config
+echo "Banner /etc/kyt.txt" >>/etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/banner.txt"@g' /etc/default/dropbear
 
 # Ganti Banner
